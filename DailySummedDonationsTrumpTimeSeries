@@ -27,7 +27,7 @@ names(committeenew)[names(committeenew) == "sum_contribution_receipt_amount"] <-
 subset(committeenew)
 
 committeenew_after <- committeenew %>%
-  filter(date >= as.Date('2020-05-01') & date <= as.Date('2020-10-28'))
+  filter(date >= as.Date('2020-02-01') & date <= as.Date('2020-10-28'))
 subset(committeenew_after) 
 
 
